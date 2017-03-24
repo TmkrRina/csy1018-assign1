@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+  width: 100%;
+  height:110px;
+}
+
+.logo{
+  float:left;
+  width: 7%;
+  padding-top: 1.5%;
+  padding-left:2%;
+}
+
+.logo img{
+  border-radius: 50%;
+  width: 80px;
+}
+
+.main_title{
+  float:left;
+  width: 28%;
+  padding-top:4%;
+  color: #4C95E8;
+  font-family: 'Sansita', sans-serif;
+  font-size: 20px;
+}
+
+nav{
+  width:30%;
+  float:right;
+  padding-top:5%;
+}
+nav ul{
+ list-style-type: none;
+
+}
+
+nav ul li{
+  display: inline-block;
+  background-color: white;
+  font-size: 22px;
+  padding-right:7%;
+  font-family: 'Sansita', sans-serif;
+}
+
+nav ul li a{
+  text-align: center;
+  text-decoration:none;
+  color: #4C95E8;
+  
+}
+nav ul li a:link {
+  text-decoration: none;
+   transition-duration: 0.2s;
+}
+nav ul li a:hover {
+  
+  font-size: 26px;
+  background-color: ;
+  text-decoration: underline;
+}
+
+.section{
+  height: 300px;
+  width:100%;
+  background-image: url("../images/Cover.jpg");
+  background-size: 100%;
+  background-attachment:fixed;
+}
+
+
+.hero{
+  background-color: grey;
+  margin: auto;
+  height: 60px;
+  padding-top:7.5%;
+  padding-bottom:10%;
+  padding-left: 35%;
+	opacity: 0.5;
+  font-family: fantasy;
+  font-size: 45px;
+}
+.hero h2{
+	color: #ffffff;
+}
+.rest{
+  backg
+  width: 100%;
+  height: 192px;  
+
+}
+footer{
+  background-color: #4C95E8;
+  height: 44px;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li img{
+  height:42px;
+  width:40px;
+}
+
+.bio{
+font-family: 'Sansita', sans-serif;
+font-size: 22px;
+color:gray;
+padding-left:2%;
+padding-top:1%;
+}
