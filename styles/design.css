@@ -9,6 +9,12 @@ header{
   height:110px;
 }
 
+.container{
+  background-image: url("../images/rina.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .logo{
   float:left;
   width: 7%;
@@ -30,72 +36,115 @@ header{
   font-size: 20px;
 }
 
-nav{
-  width:30%;
-  float:right;
-  padding-top:5%;
+.ham{
+  float: right;
 }
-nav ul{
- list-style-type: none;
-
+/*Strip the ul of padding and list styling*/
+nav {
+  float: right;
 }
-
-nav ul li{
-  display: inline-block;
-  background-color: white;
-  font-size: 22px;
-  padding-right:7%;
-  font-family: 'Sansita', sans-serif;
+nav ul {
+	list-style-type:none;
 }
 
-nav ul li a{
-  text-align: center;
-  text-decoration:none;
-  color: #4C95E8;
-  
+/*Create a horizontal list with spacing*/
+nav li {
+	display:inline-block;
+	margin-right: 9px;
 }
-nav ul li a:link {
-  text-decoration: none;
-   transition-duration: 0.2s;
+
+/*Style for menu links*/
+nav li a {
+	display:block;
+	min-width:140px;
+	height: 50px;
+  margin-right: 10px;
+  margin-top: 25px;
+	text-align: center;
+	line-height: 50px;
+  font-size:18px;
+  font-weight: 900;
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+	text-decoration: none;
 }
-nav ul li a:hover {
-  
-  font-size: 26px;
-  background-color: ;
-  text-decoration: underline;
+
+/*Hover state for top level links*/
+nav li:hover a  {
+	color: #1f8fd4;
 }
+
+/*Style 'show menu' label button and hide it by default*/
+.disp-nav {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 5px;
+	display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ nav ul{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+	/*Make dropdown links appear inline*/
+	nav ul {
+		position: static;
+		display: none;
+	}
+	nav li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.disp-nav {
+		display:block;
+	}
+}
+
 
 .section{
-  height: 300px;
-  width:100%;
-  background-image: url("../images/Cover.jpg");
-  background-size: 100%;
-  background-attachment:fixed;
+  height: 556px;
+}
+
+.desc{
+  padding-left: 50px;
+  padding-top: 5%;
+  font-size: 38px;
+  font-weight: 900;
+  font-family: 'Dosis', sans-serif;
+}
+
+.bl{
+  color: #1f8fd4;
+}
+
+#wh1{
+  color: #fff;
+}
+
+#wh2{
+  color: #fff;
+  font-size: 60px;
 }
 
 
-.hero{
-  background-color: grey;
-  margin: auto;
-  height: 60px;
-  padding-top:7.5%;
-  padding-bottom:10%;
-  padding-left: 35%;
-	opacity: 0.5;
-  font-family: fantasy;
-  font-size: 45px;
-}
-.hero h2{
-	color: #ffffff;
-}
-.rest{
-  backg
-  width: 100%;
-  height: 192px;  
 
-}
 footer{
-  background-color: #4C95E8;
+  background-color: #1f8fd4;
   height: 44px;
 }
 

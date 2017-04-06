@@ -1,4 +1,13 @@
-<form method="get" action="">
+<script type="text/javascript">
+	function validate(fm){
+		if(fm.name.value==''){
+			alert('Please eneter your name');
+			fm.name.focus();
+			return false;
+		}
+	}
+</script>
+<form method="get" action="" onsubmit="return validate(this)">
 
 <fieldset>
 <legend> Contact Form </legend>
