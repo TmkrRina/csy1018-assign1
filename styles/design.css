@@ -117,9 +117,15 @@ input[type=checkbox]:checked ~ nav ul{
 	}
 }
 
+<<<<<<< HEAD
 /* Content for hero object in home page */
 .section {
   padding: 16% 0;
+=======
+
+.section {
+  padding: 15% 0;
+>>>>>>> 5f95dbf939faac7719417e20c6a1ae0f93a503bc
 }
 
 .desc{
@@ -311,6 +317,7 @@ footer li:hover a  {
 }
 
 .foot{
+<<<<<<< HEAD
 padding: 0.5% 0;
 width: 100%;
 display: flex;
@@ -329,6 +336,21 @@ flex-direction: row;
   margin: 0 0;
   margin-top: 2%;
   margin-bottom: 2%;
+=======
+padding: 2% 0;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.foot-1, .foot-2, .foot-3 {
+  width: 33%;
+  padding-left: 2%;
+}
+
+.foot-3{
+  margin: 3% 0;
+>>>>>>> 5f95dbf939faac7719417e20c6a1ae0f93a503bc
   font-size: 28px;
   padding-left: 2%;
   border-left: 1px solid white;
@@ -354,12 +376,20 @@ footer ul li img{
 }
 
 .last-foot{
+<<<<<<< HEAD
   padding: 1% 1%;
   border-top: 2px solid white;
   text-align: center;
 }
 
 /* codes fore making page responsive */
+=======
+  padding: 5% 1%;
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+>>>>>>> 5f95dbf939faac7719417e20c6a1ae0f93a503bc
 @media (max-width: 1199px) and (min-width: 785px) {
   .section {
     padding: 10% 0;
@@ -381,11 +411,17 @@ footer ul li img{
     width: 100%;
     text-align: center;
   }
+<<<<<<< HEAD
   .container {
     padding: 0 0 5% 0;
   }
   .section {
     padding: 0;
+=======
+
+  .section {
+    padding: 5% 10%;
+>>>>>>> 5f95dbf939faac7719417e20c6a1ae0f93a503bc
   }
 
 }
